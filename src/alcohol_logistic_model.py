@@ -24,7 +24,7 @@ class AlcoholLogisticModel():
         y_pred = self.predict(x_test)#para eso primero obtenemos la predicción llamando al método anterior.
         return {
             "accuracy": accuracy_score(y_test, y_pred),#nos dice cuantas predicciones acierta, en nuestro caso no será la métrica más precisa por culpa de que hay pocos positivos en los datos.
-            "precision": precision_score(y_test, y_pred),#nos dice cuantas veces acierta un positivo.
+            "precision": precision_score(y_test, y_pred, zero_division=0),#nos dice cuantas veces acierta un positivo.
             "recall": recall_score(y_test, y_pred),#nos dice cuantos positivos detecta el modelo de todos los que hay.
             "f1": f1_score(y_test, y_pred),#métrica más precisa que combina precisión y recall.
             "confusion_matrix": confusion_matrix(y_test, y_pred)
