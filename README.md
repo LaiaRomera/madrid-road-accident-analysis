@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Madrid Road Accident Analysis
-Exploratory Data Analysis and logistic regression model based on Madrid traffic accidents data from 2024.ç
-=======
 # Análisis de la Accidentalidad en Madrid y Predicción de Riesgo Relacionado con el Consumo de Alcohol
 
 ## Descripción del Proyecto
@@ -121,4 +117,3 @@ madrid-road-accident-analysis/
 Laia Romera
 
 Máster en Data Science e Inteligencia Artificial.
->>>>>>> 062d (cambios de mejora github)
